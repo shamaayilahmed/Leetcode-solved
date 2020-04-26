@@ -8,6 +8,6 @@ public:
                 return{hash[n],i};
             hash[nums[i]]=i;
         }
-        return {};  //to return a object of the function
+        return {};  //to return a object of the function for classes.
     }
 };
