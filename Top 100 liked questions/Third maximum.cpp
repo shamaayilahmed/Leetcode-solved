@@ -26,7 +26,7 @@ public:
             }else if(second<current){    //current element greater then second 
                 third=second;
                 second=current;
-            }else if(third<current && nums[i]!=second){      //current element greater then third
+            }else if(third<current && current!=second){      //current element greater then third
                 third=current;
             }
         }
